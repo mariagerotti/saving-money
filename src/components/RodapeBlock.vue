@@ -3,5 +3,5 @@ export default {};
 </script>
 
 <template>
-    <footer id="footer">ksjfhkwhf</footer>
+    <footer id="footer">rodapé</footer>
 </template>

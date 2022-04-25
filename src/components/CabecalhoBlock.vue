@@ -2,6 +2,6 @@
 export default {};
 </script>
 <template>
-    <header id="header">dddd</header>
+    <header id="header">cabeçalho</header>
 </template>
 <style></style>

@@ -1,7 +1,7 @@
 <script>
-export default{};
+export default {};
 </script>
 
 <template>
-<article class="block"></article>
+  <article class="block"></article>
 </template>
