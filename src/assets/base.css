@@ -42,3 +42,7 @@ body {
   margin: 10px;
   flex: 1;
 }
+.alerta{
+  background-color: rgb(100, 28, 168);
+  color: #fff;
+}
