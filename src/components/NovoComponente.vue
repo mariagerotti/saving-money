@@ -1,5 +1,12 @@
 <script>
-export default {};
+export default {
+  props: {
+    titulo:{
+      default:"A DEFINIR",
+    },
+    nomes:Array,
+  }
+};
 </script>
 
 <template>
