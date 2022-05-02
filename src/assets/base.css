@@ -1,6 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
+  background: url("@/assets/sm.png") no-repeat #99BDA3 ;
+
 }
 
 #app {
@@ -9,40 +11,31 @@ body {
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
   grid-template-areas: 
-    "header header"
-    "sidenav content"
-    "footer footer";
+    "content content"
+    "content content"
+    "content content"
+    "content content";
 }
 
 #header, #content, #sidenav, #footer {
   border: 1px solid green;
 }
 
-#header {
-  grid-area: header;
-}
+
 #content {
   grid-area: content;
   display: flex;
-  flex-wrap: wrap;
-}
-#footer {
-  grid-area: footer;
-}
-#sidenav {
-  grid-area: sidenav;
+  flex-flow: wrap;
 }
 
+
 .block {
-  min-width: 300px;
-  height: 300px;
+  min-width: 40%;
+  height: 90%;
   border: 1px solid rgb(109, 46, 134);
   border-radius: 15px;
   padding: 20px;
-  margin: 10px;
+  margin: 36px;
   flex: 1;
 }
-.alerta{
-  background-color: rgb(100, 28, 168);
-  color: #fff;
-}
+

@@ -10,12 +10,5 @@ export default {
 </script>
 
 <template>
-  <article class="block">
-    <h1>{{ titulo }}</h1>
-    <ul>
-      <li v-for="(nome, i) of nomes" :key="i">
-        {{ nome }}
-      </li>
-    </ul>
-  </article>
+  <article class="block"></article>
 </template>
