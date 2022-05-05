@@ -1,14 +1,9 @@
 <script>
-export default {
-  props: {
-    titulo: {
-      default: "A DEFINIR",
-    },
-    nomes: Array,
-  },
-};
+export default {};
 </script>
 
 <template>
-  <article class="block"></article>
+  <article class="null">
+  <img src="../assets/sm.png" alt="">
+  </article>
 </template>

@@ -1,9 +1,9 @@
 body {
   margin: 0;
   height: 100vh;
-  background: url("@/assets/sm.png") no-repeat #99BDA3 ;
-
+  
 }
+
 
 #app {
   height: 100%;
@@ -34,6 +34,14 @@ body {
   height: 90%;
   border: 1px solid rgb(109, 46, 134);
   border-radius: 15px;
+  padding: 20px;
+  margin: 36px;
+  flex: 1;
+}
+
+.null {
+  min-width: 40%;
+  height: 90%; 
   padding: 20px;
   margin: 36px;
   flex: 1;

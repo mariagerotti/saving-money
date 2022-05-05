@@ -1,7 +1,7 @@
 <script>
 export default {};
 </script>
+
 <template>
-  <header id="header"></header>
+  <article class="block"></article>
 </template>
-<style></style>
