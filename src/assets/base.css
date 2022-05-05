@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  
+  background-color: #99bda3;
 }
 
 
@@ -17,9 +17,6 @@ body {
     "content content";
 }
 
-#header, #content, #sidenav, #footer {
-  border: 1px solid green;
-}
 
 
 #content {
@@ -30,6 +27,16 @@ body {
 
 
 .block {
+  min-width: 10%;
+  height: 90%;
+  border: 1px solid rgb(109, 46, 134);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 36px;
+  flex: 1;
+}
+
+.container {
   min-width: 40%;
   height: 90%;
   border: 1px solid rgb(109, 46, 134);
@@ -45,5 +52,9 @@ body {
   padding: 20px;
   margin: 36px;
   flex: 1;
+}
+
+img{
+  width: 105%;
 }
 

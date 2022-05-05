@@ -4,6 +4,6 @@ export default {};
 
 <template>
   <article class="null">
-  <img src="../assets/sm.png" alt="">
+    <img src="../assets/sm.png" alt=""/>
   </article>
 </template>

@@ -8,7 +8,6 @@ export default {
 
 <template>
   <main id="content">
-  
     <NovoComponente1 />
     <ContainerLogin />
   </main>
