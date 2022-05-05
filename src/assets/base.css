@@ -4,7 +4,6 @@ body {
   background-color: #99bda3;
 }
 
-
 #app {
   height: 100%;
   display: grid;
@@ -17,14 +16,11 @@ body {
     "content content";
 }
 
-
-
 #content {
   grid-area: content;
   display: flex;
   flex-flow: wrap;
 }
-
 
 .block {
   min-width: 10%;
