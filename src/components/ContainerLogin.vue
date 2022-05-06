@@ -8,7 +8,11 @@ export default {};
       <div class="icon-user">
         <span class="material-symbols-outlined"> account_circle </span>
       </div>
+      <label for="nome">Nome de Usuário:</label>
+      <input type="text"/>
+      <label for="email">E-mail:</label>
       <input type="text" />
+      <label for="nome">Senha:</label>
       <input type="text" />
     </div>
     <div class="entrar">Entrar</div>
