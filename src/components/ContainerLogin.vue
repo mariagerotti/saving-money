@@ -14,6 +14,9 @@ export default {};
       <input type="text" />
       <label for="nome">Senha:</label>
       <input type="text" />
+      <div class="btn-cadastro"><button>Cadastrar</button>
+      </div>
+      
     </div>
     <div class="entrar">Entrar</div>
   </section>
@@ -31,6 +34,13 @@ export default {};
   justify-content: center;
   align-items: center;
 }
+.btn-cadastro{
+
+}
+
+
+
+
 
 .login,
 .entrar {
