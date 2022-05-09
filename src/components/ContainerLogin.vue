@@ -16,14 +16,18 @@ export default {};
       <input type="text" />
       <div id="btn-cadastro"><button>Cadastrar</button></div>
     </div>
+    <div class="container-entrar">
     <div class="entrar">Entrar</div>
+
+
+    </div>
   </section>
 
-  <section></section>
+ 
 </template>
 
 <style>
-.container-login {
+.container-login, .container-entrar {
   min-width: 10%;
   height: 90%;
   padding: 20px;
