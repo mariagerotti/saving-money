@@ -79,4 +79,10 @@ export default {};
   width: 50px;
   height: 50px;
 }
+
+.img-moeda {
+  border-radius: 50%;
+  width: 138px;
+  height: 143px;
+}
 </style>
