@@ -17,17 +17,22 @@ export default {};
       <div id="btn-cadastro"><button>Cadastrar</button></div>
     </div>
     <div class="container-entrar">
-    <div class="entrar">Entrar</div>
-
-
+      <div class="entrar">
+        Entrar
+        <div id="img-moeda">
+          <img
+            src="../assets/9c1a0590528c68138bc08d9df0942f9d-icone-de-moeda-dolar.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   </section>
-
- 
 </template>
 
 <style>
-.container-login, .container-entrar {
+.container-login,
+.container-entrar {
   min-width: 10%;
   height: 90%;
   padding: 20px;
