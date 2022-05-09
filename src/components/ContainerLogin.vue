@@ -9,17 +9,17 @@ export default {};
         <span class="material-symbols-outlined"> account_circle </span>
       </div>
       <label for="nome">Nome de Usuário:</label>
-      <input type="text"/>
+      <input type="text" />
       <label for="email">E-mail:</label>
       <input type="text" />
       <label for="nome">Senha:</label>
       <input type="text" />
-      <div class="btn-cadastro"><button>Cadastrar</button>
-      </div>
-      
+      <div id="btn-cadastro"><button>Cadastrar</button></div>
     </div>
     <div class="entrar">Entrar</div>
   </section>
+
+  <section></section>
 </template>
 
 <style>
@@ -27,20 +27,20 @@ export default {};
   min-width: 10%;
   height: 90%;
   padding: 20px;
-  margin: 36px;
   flex: 1;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-cadastro{
-
+#btn-cadastro button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 7px;
+  width: 250px;
+  background: #708e79;
 }
-
-
-
-
 
 .login,
 .entrar {
@@ -48,6 +48,9 @@ export default {};
   margin: 10px;
   height: 500px;
   width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login {
@@ -59,6 +62,7 @@ export default {};
 .login input {
   margin: 10px 20px;
   height: 35px;
+  width: 300px;
   border: 0;
 }
 
