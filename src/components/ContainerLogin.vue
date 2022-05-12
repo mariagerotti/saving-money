@@ -18,13 +18,15 @@ export default {};
     </div>
     <div class="container-entrar">
       <div class="entrar">
-        Entrar
         <div id="img-moeda">
           <img
             src="../assets/9c1a0590528c68138bc08d9df0942f9d-icone-de-moeda-dolar.png"
             alt=""
+            width="125px"
+            height="135px"
           />
         </div>
+        <p>Meu Cofre</p>
       </div>
     </div>
   </section>
@@ -60,6 +62,11 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.entrar div {
+  margin-bottom: 70%;
 }
 
 .login {
@@ -84,5 +91,8 @@ export default {};
   border-radius: 50%;
   width: 138px;
   height: 143px;
+}
+
+#img-moeda {
 }
 </style>
