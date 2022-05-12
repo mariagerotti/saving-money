@@ -6,7 +6,9 @@ export default {};
   <section class="container-login">
     <div class="login">
       <div class="icon-user">
-        <span class="material-symbols-outlined"> account_circle </span>
+        <span class="material-symbols-outlined" width="105px" height="115px">
+          account_circle
+        </span>
       </div>
       <label for="nome">Nome de Usuário:</label>
       <input type="text" />
@@ -52,6 +54,7 @@ export default {};
   padding: 7px;
   width: 250px;
   background: #708e79;
+  
 }
 
 .login,
@@ -64,10 +67,7 @@ export default {};
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.entrar div {
-  margin-bottom: 40%;
+  font-family: "Basic";
 }
 
 .login {
