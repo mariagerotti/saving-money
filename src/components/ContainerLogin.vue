@@ -6,9 +6,7 @@ export default {};
   <section class="container-login">
     <div class="login">
       <div class="icon-user">
-        <span class="material-symbols-outlined" width="105px" height="115px">
-          account_circle
-        </span>
+      <img src="../assets/img_550783.png" alt="">
       </div>
       <label for="nome">Nome de Usuário:</label>
       <input type="text" />
@@ -34,4 +32,3 @@ export default {};
     </div>
   </section>
 </template>
-

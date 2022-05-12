@@ -72,6 +72,7 @@ img{
   padding: 7px;
   width: 250px;
   background: #708e79;
+  border: #708e79;
   
 }
 
@@ -115,4 +116,10 @@ img{
 #cofre {
   font-family: "Basic";
   font-size: 56px;
+}
+
+.material-symbols-outlined{
+  display: flex ;
+  width: 138px;
+  height: 143px;
 }
