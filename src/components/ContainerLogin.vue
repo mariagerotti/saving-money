@@ -6,7 +6,7 @@ export default {};
   <section class="container-login">
     <div class="login">
       <div class="icon-user">
-      <img src="../assets/img_550783.png" alt="">
+        <img src="../assets/img_550783.png" alt="" />
       </div>
       <label for="nome">Nome de Usuário:</label>
       <input type="text" />
