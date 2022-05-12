@@ -22,11 +22,12 @@ export default {};
           <img
             src="../assets/9c1a0590528c68138bc08d9df0942f9d-icone-de-moeda-dolar.png"
             alt=""
-            width="125px"
-            height="135px"
+            width="105px"
+            height="115px"
           />
         </div>
-        <p>Meu Cofre</p>
+        <p id="cofre">Meu Cofre</p>
+        <div id="btn-cadastro"><button>Entrar</button></div>
       </div>
     </div>
   </section>
@@ -66,7 +67,7 @@ export default {};
 }
 
 .entrar div {
-  margin-bottom: 70%;
+  margin-bottom: 40%;
 }
 
 .login {
@@ -93,6 +94,8 @@ export default {};
   height: 143px;
 }
 
-#img-moeda {
+#cofre {
+  font-family: "Basic";
+  font-size: 56px;
 }
 </style>
