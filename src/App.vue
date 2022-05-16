@@ -1,11 +1,13 @@
 <script>
-import BlocoPrincipal from "@/components/BlocoPrincipal.vue";
+// import BlocoPrincipal from "@/components/BlocoPrincipal.vue";
+
+import { RouterView } from "vue-router";
 
 export default {
-  components: { BlocoPrincipal },
+  components: { RouterView },
 };
 </script>
 <template>
-  <BlocoPrincipal />
+  <RouterView />
 </template>
 <style></style>

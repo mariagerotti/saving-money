@@ -8,7 +8,7 @@ export default {};
       <div class="icon-user">
         <img src="../assets/img_550783.png" alt="" />
       </div>
-      <label for="nome">Nome de Usuário:</label>
+      <label for="nome" id="usuario">Nome de Usuário:</label>
       <input type="text" />
       <label for="email">E-mail:</label>
       <input type="text" />
@@ -27,7 +27,9 @@ export default {};
           />
         </div>
         <p id="cofre">Meu Cofre</p>
-        <div id="btn-cadastro"><button>Entrar</button></div>
+        <div id="btn-cadastro">
+          <button @click="$router.push('cofre')">Entrar</button>
+        </div>
       </div>
     </div>
   </section>

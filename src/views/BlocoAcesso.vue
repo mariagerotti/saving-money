@@ -1,6 +1,6 @@
 <script>
-import NovoComponente1 from "./NovoComponente.vue";
-import ContainerLogin from "./ContainerLogin.vue";
+import NovoComponente1 from "@/components/NovoComponente.vue";
+import ContainerLogin from "@/components/ContainerLogin.vue";
 export default {
   components: { NovoComponente1, ContainerLogin },
 };
