@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
+  grid-template-areas:
     "content content"
     "content content"
     "content content"
@@ -25,7 +25,6 @@ body {
 .block {
   min-width: 10%;
   height: 90%;
-  border: 1px solid rgb(109, 46, 134);
   border-radius: 15px;
   padding: 20px;
   margin: 36px;
@@ -35,7 +34,6 @@ body {
 .container {
   min-width: 40%;
   height: 90%;
-  border: 1px solid rgb(109, 46, 134);
   border-radius: 15px;
   padding: 20px;
   margin: 36px;
@@ -44,13 +42,13 @@ body {
 
 .null {
   min-width: 40%;
-  height: 90%; 
+  height: 90%;
   padding: 20px;
   margin: 36px;
   flex: 1;
 }
 
-img{
+img {
   width: 105%;
 }
 
@@ -74,7 +72,6 @@ img{
   width: 250px;
   background: #708e79;
   border: #708e79;
-  
 }
 
 .login,
@@ -119,12 +116,12 @@ img{
   font-size: 56px;
 }
 
-.material-symbols-outlined{
-  display: flex ;
+.material-symbols-outlined {
+  display: flex;
   width: 138px;
   height: 143px;
 }
 
-#usuario{
+#usuario {
   margin-top: 9%;
 }
