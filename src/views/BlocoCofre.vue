@@ -8,6 +8,15 @@ export default {
 
 <template>
   <main id="content">
-    <h1>Meu cofre....</h1>
+    <div class="login">
+      <div class="icon-user">
+        <img src="../assets/img_550783.png" alt="" />
+      </div>
+      <label for="email">E-mail:</label>
+      <input type="text" />
+      <label for="nome">Senha:</label>
+      <input type="text" />
+      <div id="btn-cadastro"><button>Entrar</button></div>
+    </div>
   </main>
 </template>

@@ -22,8 +22,8 @@ export default {};
           <img
             src="../assets/9c1a0590528c68138bc08d9df0942f9d-icone-de-moeda-dolar.png"
             alt=""
-            width="105px"
-            height="115px"
+            width="115px"
+            height="125px"
           />
         </div>
         <p id="cofre">Meu Cofre</p>
