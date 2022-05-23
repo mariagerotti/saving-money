@@ -108,10 +108,10 @@ img {
   height: 80px;
 }
 
-.img-moeda {
-  width: 10px;
-  height: 15px;
-}
+/*.img-moeda {
+  max-width: 115px;
+  max-height: 105px;
+}*/
 
 #cofre {
   font-family: "Basic";

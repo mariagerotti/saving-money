@@ -18,12 +18,12 @@ export default {};
     </div>
     <div class="container-entrar">
       <div class="entrar">
-        <div id="img-moeda">
+        <!--<div id="img-moeda">
           <img
             src="../assets/9c1a0590528c68138bc08d9df0942f9d-icone-de-moeda-dolar.png"
             alt=""
           />
-        </div>
+        </div> -->
         <p id="cofre">Meu Cofre</p>
         <div id="btn-cadastro">
           <button @click="$router.push('cofre')">Entrar</button>
