@@ -108,11 +108,6 @@ img {
   height: 80px;
 }
 
-/*.img-moeda {
-  max-width: 115px;
-  max-height: 105px;
-}*/
-
 #cofre {
   font-family: "Basic";
   font-size: 56px;
@@ -126,4 +121,21 @@ img {
 
 #usuario {
   margin-top: 9%;
+}
+
+
+@media (max-width:800px) {
+  .container-login,
+  .container-entrar {
+    min-width: 10%;
+    height: 90%;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
 }
